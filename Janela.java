@@ -31,6 +31,7 @@ public class Janela extends JFrame {
     private JTextField jtfTelefone;
     private JTextField jtfCpf;
     private JButton jbConsultar;
+    private JButton jbAtualizar;
 
     public Janela() {
         setResizable(false);
@@ -176,6 +177,7 @@ public class Janela extends JFrame {
 
         janela.setVisible(true);
     } 
+
 
 
 }

@@ -133,8 +133,8 @@ public class Janela extends JFrame {
                 }
             }
         });
-        
         add(jbConsultar);
+        
         JButton jbAtualizar = new JButton("Atualizar");
         jbAtualizar.setSize(100, 23);
         jbAtualizar.setLocation(145,190);
@@ -157,6 +157,7 @@ public class Janela extends JFrame {
             }
         });
         add(jbAtualizar);
+        
         JButton jbFechar = new JButton("Fechar");
         jbFechar.setSize(100, 23);
         jbFechar.setLocation(255, 190);
@@ -181,3 +182,4 @@ public class Janela extends JFrame {
 
 
 }
+
